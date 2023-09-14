@@ -9,7 +9,7 @@ def stock_purchases():
 
     # Given the prices above and a client's investment budget, how much stock can they buy?
     # 1.1 TODO: Ask the client's name (use the string: "What is your name? ") and save it into a variable   
-    question = input('What is your name?')
+    question = input('What is your name? ')
     # 1.2 TODO: Ask the client how many dollars they would like to invest (use the string: "How much would you like to invest? $")
     # and save it into a variable
     # NOTE: When you use the `input` function to get user input, what do numbers get saved as?
@@ -35,7 +35,7 @@ def stock_purchases():
     else:
         choice = (200)
     
-    int(choice)
+    choice = int(choice)
   
     if stock_name == 'Amazon':
         num_shares  = (budget/3000)
@@ -52,7 +52,7 @@ def stock_purchases():
 
     # print(amount_of_shares)
     # 1.5 TODO: Once you've calculated the number of stocks that can be purchased,
-    print(f'{question} has {budget} to invest and can buy {num_shares} shares of {stock_name} at the current price of ${choice}' )
+    print(f'{question} has ${budget} to invest and can buy {num_shares} shares of {stock_name} at the current price of ${choice}.' )
           
     # Use an f-string to print the result for the client, ala:
     # Alex has $5000 to invest and can buy 50 shares of Apple at the current price of $100.
