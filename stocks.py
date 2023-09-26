@@ -9,7 +9,7 @@ def stock_purchases():
 
     # Given the prices above and a client's investment budget, how much stock can they buy?
     # 1.1 TODO: Ask the client's name (use the string: "What is your name? ") and save it into a variable   
-    question = input('What is your name?')
+    question = input('What is your name? ')
     # 1.2 TODO: Ask the client how many dollars they would like to invest (use the string: "How much would you like to invest? $")
     # and save it into a variable
     # NOTE: When you use the `input` function to get user input, what do numbers get saved as?
